@@ -4,7 +4,7 @@
             if (username === 'admin' && password === 'admin') {
                 alert('Login successful! Redirecting to Support Portal...');
                 // Add your redirection logic here
-				window.location.href = '/Home/';
+				window.location.href = '/Home/index.html';
             } else {
                 alert('Invalid credentials. Please try again.');
             }
